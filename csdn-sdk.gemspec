@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{csdn is a Ruby gem that provides a wrapper for interacting with csdn API, 
                          which is currently the latest version. The output data format is Hashie::Mash}
   gem.summary       = "A oauth2 gem for csdn"
-  gem.homepage      = "http://github.com/inosin/csdn"
+  gem.homepage      = "http://github.com/inosin/csdn-sdk"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
