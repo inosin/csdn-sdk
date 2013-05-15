@@ -1,8 +1,8 @@
 Note: I got a lot of inspiration from [this gem](https://github.com/simsicon/weibo_2). Thanks simsicon.
 
-# CsdnOAuth2
+# CSDN-SDK
 
-CsdnOAuth2 is a Ruby gem that provides a wrapper for interacting with CSDN [API](http://open.csdn.net/wiki/apis), which is currently the latest version. Check out the link if you are interested in browsing the details. The output data format is Hashie::Mash, check out [here](https://github.com/intridea/hashie#mash). If you are not familiar with oauth2, I recommend that you read this [article](http://open.csdn.net/wiki/oauth2).
+CSDN-SDK is a Ruby gem that provides a wrapper for interacting with CSDN [API](http://open.csdn.net/wiki/apis), which is currently the latest version. Check out the link if you are interested in browsing the details. The output data format is Hashie::Mash, check out [here](https://github.com/intridea/hashie#mash). If you are not familiar with oauth2, I recommend that you read this [article](http://open.csdn.net/wiki/oauth2).
 
 ## Requirements
 
@@ -17,7 +17,7 @@ $ gem install csdn-sdk
 ```
 
 ## Basic Usage
-
+The example have been moved to [here](https://github.com/inosin/csdn-sdk-example).
 
 1.  How to get the token?
 
