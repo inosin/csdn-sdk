@@ -16,7 +16,6 @@ module CsdnOAuth2
 
       def hashie(response)
         json_body = MultiJson.load(response.body)
-        logger.info json_body
         if json_body.is_a? Array
           Array.new(json_body.count){|i| Hashie::Mash.new(json_body[i])}
         else
